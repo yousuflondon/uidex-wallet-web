@@ -1,7 +1,6 @@
 [submodule "sdk"]
 	path = sdk
 	url = https://github.com/yousuflondon/komodo-defi-sdk-flutter.git
-	branch = x1
 	update = checkout
 	fetchRecurseSubmodules = on-demand
 	ignore = dirty
