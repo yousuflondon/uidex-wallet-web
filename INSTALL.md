@@ -1,19 +1,19 @@
-# Installation Guide for Cheetahdex Wallet Web App, Android App and Desktop App 
+# Installation Guide for Uidex Wallet Web App, Android App and Desktop App 
 
-For high level understanding of Cheetahdex Wallet code base, please checkout Komodo developer guide on README front page.
+For high level understanding of Uidex Wallet code base, please checkout Komodo developer guide on README front page.
 
-Cheetahdex Wallet pretty much preserved all the features in the open sourced Gleec Wallet (formerly Komodo Wallet) app, with DEX enabled and some logo/name changes.
+Uidex Wallet pretty much preserved all the features in the open sourced Gleec Wallet (formerly Komodo Wallet) app, with DEX enabled and some logo/name changes.
 
 ## Hardware Requirement - proper hardware for PC, chromebook, or mobile phones
 
-The cheetahdex web app was successfully tested in google chrome or firefox browser on multiple platforms: windows 11, macOS, linux, chromebook, android phone.
+The uidex web app was successfully tested in google chrome or firefox browser on multiple platforms: windows 11, macOS, linux, chromebook, android phone.
 
-The cheetahdex desktop app released binary files were tested successfully in Windows 11 and linux (ubuntu 24.04) on x64 hardware. 
+The uidex desktop app released binary files were tested successfully in Windows 11 and linux (ubuntu 24.04) on x64 hardware. 
 
-The cheetahdex android apk released file was successfully tested with google Nexus 9 pro and Samsung model phones.
+The uidex android apk released file was successfully tested with google Nexus 9 pro and Samsung model phones.
 
 ## Dependency Requirement for web/android/linux wallet - flutter and android-studio
-Cheetahdex Web/Android/linux Wallet app is flutter based app.  You can compile your own linux binary files, android apk, or compile and run self-hosted web app in Ubuntu 22.04 easily by meeting flutter and android-studio 
+Uidex Web/Android/linux Wallet app is flutter based app.  You can compile your own linux binary files, android apk, or compile and run self-hosted web app in Ubuntu 22.04 easily by meeting flutter and android-studio 
 requirement below. Check out Komodo Developer Guide on README for details.
 - Install latest version of android studio.  For easily navigate and install proper features of android-studio, a x-windows GUI on Ubuntu is recommended.
 - Install flutter on proper version under your home directory.  Too new or too old version of flutter won't compile this release.
@@ -80,14 +80,14 @@ ShorelineCrypto production web/android app was compiled successfully under below
 
 ```
 
-## Cheetahdex Wallet Web App
-### Step 1 - compile cheetahdex-wallet web app
+## Uidex Wallet Web App
+### Step 1 - compile uidex-wallet web app
 
 To compile your self-hosted web app, run below
 
 ```
-  git clone https://github.com/ShorelineCrypto/cheetahdex-wallet-web.git
-  cd cheetahdex-wallet-web && git checkout cheetahdex
+  git clone https://github.com/yousuflondon/uidex-wallet-web.git
+  cd uidex-wallet-web && git checkout uidex
   git submodule update --init --recursive
   flutter build web --csp --no-web-resources-cdn
 ```
@@ -107,11 +107,11 @@ run below:
   flutter run -d  web-server  --web-hostname  localhost --web-port=8888  --release
 ```
 
-Now Cheetahdex Web Wallet should be running at "http://localhost:8888" web URL.  This web URL can only be accessed from same host machine that web app runs on. 
+Now Uidex Web Wallet should be running at "http://localhost:8888" web URL.  This web URL can only be accessed from same host machine that web app runs on. 
 
 ### Step 3 - Set up https with certbot/nginx
 
-The new web version of Komodo Wallet imposed security enhancement feature that can only run through localhost host. Cheetahdex Web Wallet removed geo blocker restriction of komodo web wallet, however, this localhost restriction stays.
+The new web version of Komodo Wallet imposed security enhancement feature that can only run through localhost host. Uidex Web Wallet removed geo blocker restriction of komodo web wallet, however, this localhost restriction stays.
 
 The setup of https redirection to full host name with certbot/nginx can follow similar method of electrumx WSS/SSL setup as in https://komodoplatform.com/en/docs/komodo/setup-electrumx-server/ 
 
@@ -127,16 +127,16 @@ sudo certbot --nginx
 
 Will create a cert file and key file, and update your nginx `sites-enabled` config.
 
-## Cheetahdex Wallet Android App
-### Step 1 - compile cheetahdex-wallet android app
+## Uidex Wallet Android App
+### Step 1 - compile uidex-wallet android app
 
 There are 3 ways to compile android apk installation file: github action CI/CD method, docker method and flutter build method. Here android apk release was obtained through flutter method.
 
 To compile your own android app apk file, make sure your linux server (ubuntu 22.04) met the flutter/android studio dependency as shown above, then run below
 
 ```
-  git clone https://github.com/ShorelineCrypto/cheetahdex-wallet-web.git
-  cd cheetahdex-wallet-web && git checkout cheetahdex
+  git clone https://github.com/yousuflondon/uidex-wallet-web.git
+  cd uidex-wallet-web && git checkout uidex
   git submodule update --init --recursive
   flutter clean
   flutter pub get
@@ -150,7 +150,7 @@ If above command runs successfully, it may say that coins has been updated, plea
     flutter build apk
 ```
 
-Now your android apk files will be built successfully under 'build' folder.  Transfer apk file into your android phone/pad,  install and run the android app for Cheetahdex Wallet.
+Now your android apk files will be built successfully under 'build' folder.  Transfer apk file into your android phone/pad,  install and run the android app for Uidex Wallet.
 
 ### Step 2 - Trouble shoot Icon/Logo Failure
 
@@ -166,16 +166,16 @@ If step 1 failed with message like "duplicate error on color.xml bla bla", or th
   flutter build apk
 ```
 
-## Cheetahdex Wallet Linux Desktop App
-### Step 1 - compile cheetahdex-wallet Desktop Linux app
+## Uidex Wallet Linux Desktop App
+### Step 1 - compile uidex-wallet Desktop Linux app
 
 There are 3 ways to compile linux desktop binary file: github action CI/CD method, docker method and flutter build method. Here linux release was obtained through flutter method.
 
 To compile your own linux release files, make sure your linux server (ubuntu 22.04) met the flutter/linux dependency as shown above, then run below
 
 ```
-  git clone https://github.com/ShorelineCrypto/cheetahdex-wallet-web.git
-  cd cheetahdex-wallet-web && git checkout cheetahdex
+  git clone https://github.com/yousuflondon/uidex-wallet-web.git
+  cd uidex-wallet-web && git checkout uidex
   git submodule update --init --recursive
   flutter clean
   flutter pub get
@@ -191,7 +191,7 @@ If above command runs successfully, it may say that coins has been updated and c
 Now your linux binary release files will be built successfully under 'build/linux/x64/release/bundle' folder.  Rename this `bundle` folder name into proper linux folder with version, then move the whole folder into desired installation location such as below:
 
 ```commandline
-mv build/linux/x64/release/bundle ~/cheetahdex-wallet_linux_unified_0.9.3.2
+mv build/linux/x64/release/bundle ~/uidex-wallet_linux_unified_0.9.3.2
 
 ```
 
@@ -201,21 +201,21 @@ You can launch the linux app from Linux Desktop by double clicking the binary fi
 
 You can also launch the linux wallet app on terminal with all the log printing out in details on terminal as below:
 ```commandline
-  cd ~/cheetahdex-wallet_linux_unified_0.9.3.2
-  ./CheetahdexWallet &
+  cd ~/uidex-wallet_linux_unified_0.9.3.2
+  ./UidexWallet &
   
 ```
-## Cheetahdex Wallet Windows Desktop App
-### Step 1 - fork cheetahdex-wallet-web repo
+## Uidex Wallet Windows Desktop App
+### Step 1 - fork uidex-wallet-web repo
 
 Windows 11 release was obtained through github action CI/CD method. This repo source code allows you to perform the same binary file release yourself from source code.
 
 To obtain do-it-yourself your own binary compiled installation file for windows 11 desktop app from source code, you will need to fork this github repo first, then in your own forked repo, enable github action. Github action is free service provided by github for every github account. 
 
 
-### Step 2 - PR to cheetahdex branch to compile
+### Step 2 - PR to uidex branch to compile
 
-This source code under '.github' subfolder has all the code for github action CI/CD compiling method. The compiling will be triggered upon "pull request" to the default `cheetahdex` git branch. Try to play with your branch code and PR to cheetahdex branch to enable github Actions to compile windows desktp app binary release. The final compiled result file is at:
+This source code under '.github' subfolder has all the code for github action CI/CD compiling method. The compiling will be triggered upon "pull request" to the default `uidex` git branch. Try to play with your branch code and PR to uidex branch to enable github Actions to compile windows desktp app binary release. The final compiled result file is at:
 git Actions -> Building desktop apps -> Build desktop (windows) -> Upload artifact
 
 

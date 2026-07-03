@@ -1,11 +1,11 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(cheetahdexwallet LANGUAGES CXX)
+project(uidexwallet LANGUAGES CXX)
 set(CMAKE_POLICY_VERSION_MINIMUM 3.10)
 add_compile_definitions(_SILENCE_EXPERIMENTAL_COROUTINE_DEPRECATION_WARNINGS)
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "cheetahdexwallet")
+set(BINARY_NAME "uidexwallet")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

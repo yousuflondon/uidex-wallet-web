@@ -3,7 +3,7 @@ run-name: Building desktop apps 🖥️
 
 on:
   pull_request:
-    branches: [cheetah, cheetahdex, fix/*, add/*, release/*, hotfix/*, feature/*]
+    branches: [cheetah, uidex, fix/*, add/*, release/*, hotfix/*, feature/*]
   workflow_dispatch:
   release:
     types: [created]
@@ -21,22 +21,22 @@ jobs:
             runner: macos-latest
             build_command: flutter build macos --no-pub --release
             artifact_path: build/macos/Build/Products/Release/*.app
-            artifact_name: cheetahdex-wallet-macos
+            artifact_name: uidex-wallet-macos
           - platform: macosx64
             runner: macos-15-intel
             build_command: flutter build macos --no-pub --release
             artifact_path: build/macos/Build/Products/Release/*.app
-            artifact_name: cheetahdex-wallet-macos
+            artifact_name: uidex-wallet-macos
           - platform: windows
             runner: windows-latest
             build_command: flutter build windows --no-pub --release
             artifact_path: build/windows/x64/runner/Release/*
-            artifact_name: cheetahdex-wallet-windows
+            artifact_name: uidex-wallet-windows
           - platform: linux
             runner: ubuntu-latest
             build_command: flutter build linux --no-pub --release
             artifact_path: build/linux/x64/release/bundle/*
-            artifact_name: cheetahdex-wallet-linux
+            artifact_name: uidex-wallet-linux
 
     steps:
       - name: Checkout code

@@ -1,8 +1,8 @@
-# Build Security Advisory for Cheetahdex Wallet
+# Build Security Advisory for Uidex Wallet
 
 ## Critical Flags for Production Builds
 
-When building the Cheetahdex Wallet for production, **always** use the following flags:
+When building the Uidex Wallet for production, **always** use the following flags:
 
 ```bash
 --enforce-lockfile  # When running 'flutter pub get'

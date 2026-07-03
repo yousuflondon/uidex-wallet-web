@@ -1,6 +1,6 @@
 {
-    "name": "Cheetahdex Web Wallet",
-    "short_name": "CheetahdexWebWallet",
+    "name": "Uidex Web Wallet",
+    "short_name": "UidexWebWallet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",

@@ -52,8 +52,8 @@ const double kSimulatedBestOrdersFailureRate = 0.5; // 50%
 // This information is here because it is not contextual and is branded.
 // Names of their own are not localized. Also, the application is initialized before
 // the localization package is initialized.
-String get appTitle => "Cheetahdex Wallet | Non-Custodial Multi-Coin Wallet & DEX";
-String get appShortTitle => "Cheetahdex Wallet";
+String get appTitle => "Uidex Wallet | Non-Custodial Multi-Coin Wallet & DEX";
+String get appShortTitle => "Uidex Wallet";
 
 Map<String, int> priorityCoinsAbbrMap = {
   // KMD always has highest priority (special case for Komodo ecosystem)
@@ -190,12 +190,12 @@ const List<String> appWalletOnlyAssetList = [
 /// Reduced to only KMD to minimize initial connections and resource usage.
 List<String> get enabledByDefaultCoins => [
   'KMD', // Komodo ecosystem coin
-  'CHTA', // Cheetahdex meme coin
-  'NENG', // Cheetahdex default coin
+  'CHTA', // Uidex meme coin
+  'NENG', // Uidex default coin
 ];
 
 const String logsDbName = 'logs';
-const String appFolder = 'CheetahdexWallet';
+const String appFolder = 'UidexWallet';
 
 Future<String> get applicationDocumentsDirectory async => kIsWeb
     ? appFolder

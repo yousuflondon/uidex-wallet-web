@@ -1,10 +1,10 @@
 # SDK Dependency Management
 
-This document describes how to manage SDK dependencies in the Cheetahdex Wallet project.
+This document describes how to manage SDK dependencies in the Uidex Wallet project.
 
 ## SDK Dependencies
 
-The Cheetahdex Wallet relies on several SDK packages maintained in the [komodo-defi-sdk-flutter](https://github.com/KomodoPlatform/komodo-defi-sdk-flutter) repository. These packages include:
+The Uidex Wallet relies on several SDK packages maintained in the [komodo-defi-sdk-flutter](https://github.com/KomodoPlatform/komodo-defi-sdk-flutter) repository. These packages include:
 
 - `komodo_cex_market_data`
 - `komodo_defi_sdk`

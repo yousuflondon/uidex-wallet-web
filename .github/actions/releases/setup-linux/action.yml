@@ -32,7 +32,7 @@ runs:
 
     - name: Setup Linux code signing
       id: setup_signing
-      if: inputs.gpg-key != '' && 'ShorelineCrypto/cheetahdex-wallet-web' == github.repository
+      if: inputs.gpg-key != '' && 'yousuflondon/uidex-wallet-web' == github.repository
       shell: bash
       run: |
         echo "${{ inputs.gpg-key }}" | base64 --decode | gpg --import --batch --yes

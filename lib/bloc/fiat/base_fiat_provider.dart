@@ -163,7 +163,7 @@ abstract class BaseFiatProvider {
     // These exist in coin config but not in CoinType structure yet:
     // ARBITRUM
 
-    // These chain IDs are not supported yet by Cheetahdex Wallet:
+    // These chain IDs are not supported yet by Uidex Wallet:
     // ADA / CARDANO
     // AVAX-X
     // ALGO
@@ -264,16 +264,16 @@ abstract class BaseFiatProvider {
   }
 
   /// Provides the URL to the checkout handler HTML page that posts the payment
-  /// status received from the fiat provider to the Cheetahdex Wallet app. The
+  /// status received from the fiat provider to the Uidex Wallet app. The
   /// `window.opener.postMessage` function is used for this purpose, and should
-  /// be handled by the Cheetahdex Wallet app.
+  /// be handled by the Uidex Wallet app.
   static String checkoutCallbackUrl() {
     const pagePath = 'assets/assets/web_pages/checkout_status_redirect.html';
     return '${getOriginUrl()}/$pagePath';
   }
 
   /// Provides the URL to the checkout handler HTML page that posts the payment
-  /// status received from the fiat provider to the Cheetahdex Wallet app.
+  /// status received from the fiat provider to the Uidex Wallet app.
   static String successUrl(String accountReference) {
     final baseUrl = checkoutCallbackUrl();
 

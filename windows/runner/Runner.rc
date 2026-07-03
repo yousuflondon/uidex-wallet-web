@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.komodo" "\0"
-            VALUE "FileDescription", "Cheetahdex Wallet" "\0"
+            VALUE "FileDescription", "Uidex Wallet" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "cheetahdexwallet" "\0"
+            VALUE "InternalName", "uidexwallet" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.komodo. All rights reserved." "\0"
-            VALUE "OriginalFilename", "cheetahdexwallet.exe" "\0"
-            VALUE "ProductName", "Cheetahdex Wallet" "\0"
+            VALUE "OriginalFilename", "uidexwallet.exe" "\0"
+            VALUE "ProductName", "Uidex Wallet" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
