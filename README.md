@@ -1,30 +1,30 @@
 # Cheetahdex Wallet on Web/Mobile/Desktop
 
 <p align="center">
-    <a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-web" alt="Cheetahdex Web Wallet">
-        <img width="420" alt="cheetahdex-wallet-logo_dark-theme" src="https://raw.githubusercontent.com/yousufpandith/uidex-wallet-desktop/dev/assets/logo/dex-logo.png">
+    <a href="https://github.com/UIDD/uidex-wallet-web" alt="Cheetahdex Web Wallet">
+        <img width="420" alt="uidex-wallet-logo_dark-theme" src="https://raw.githubusercontent.com/yousufpandith/uidex-wallet-desktop/dev/assets/logo/dex-logo.png">
     </a>
 </p>
 
 Cheetahdex Wallet is open-sourced non-custodian wallet & DEX with 100% account seed compatibility with Komodo Wallet. This is unified code base for all platforms (Web/Mobile/Desktop). 
 
-Welcome to the Cheetahdex Wallet open-source repository! This cutting-edge project is brought to you by ShorelineCrypto, providing a mighty decentralised wallet and exchange all in one. Take control of your cryptocurrencies and trade seamlessly in DEX with personal sovereignty. Not your keys, not your coins!
+Welcome to the Cheetahdex Wallet open-source repository! This cutting-edge project is brought to you by UIDD, providing a mighty decentralised wallet and exchange all in one. Take control of your cryptocurrencies and trade seamlessly in DEX with personal sovereignty. Not your keys, not your coins!
 
 ### Web App 
-- ShorelineCrypto Live Web App:  https://app.shorelinecrypto.com
-- Self-hosted at your home linux server/cloud: follow `INSTALL.md` and below Komodo Developer guide to run your own cheetahdex web wallet app at your home or at cloud VPS
+- UIDD Live Web App:  https://app.uidd.org
+- Self-hosted at your home linux server/cloud: follow `INSTALL.md` and below Komodo Developer guide to run your own uidex web wallet app at your home or at cloud VPS
 
 ### Android App
-- Download/Install apk file from our [releases](https://github.com/ShorelineCrypto/cheetahdex-wallet-web/releases) into any android device. 
+- Download/Install apk file from our [releases](https://github.com/UIDD/uidex-wallet-web/releases) into any android device. 
 - Self-built your own apk file by following `INSTALL.md` guide.
 
 ### Desktop App
-- Download/Install binary release files from our [releases](https://github.com/ShorelineCrypto/cheetahdex-wallet-web/releases) for windows 11 or linux desktop. 
+- Download/Install binary release files from our [releases](https://github.com/UIDD/uidex-wallet-web/releases) for windows 11 or linux desktop. 
 - Self-built your own release files (windows or linux) by following `INSTALL.md` guide.
 
 
 Notes - for latest links and information on Cheetahdex wallet products on web, on desktop (linux/macOS/windows) or on mobile, please checkout Cheetahdex page at:
-https://cheetahdex.shorelinecrypto.com/
+https://uidex.UIDD.com/
 
 ----
 
@@ -33,14 +33,14 @@ https://cheetahdex.shorelinecrypto.com/
 Please join below discord server for support, discussions and general UI/UX
 feedback.
 
-- ShorelineCrypto Discord Server: https://discord.com/invite/jZMyhKm
+- UIDD Discord Server: https://discord.com/invite/jZMyhKm
 - Komodo Wallet Discord Server: https://komodoplatform.com/discord
 
 ## Useful links
 
 - :speech_balloon: [Cheetahdex Wallet Discord](https://discord.com/invite/jZMyhKm)
-- :notebook_with_decorative_cover: [ShorelineCrypto Reddit](https://www.reddit.com/r/shorelinecrypto/)
-- :hammer_and_wrench: [ShorelineCrypto X](https://x.com/shorelinecrypto)
+- :notebook_with_decorative_cover: [UIDD Reddit](https://www.reddit.com/r/UIDD/)
+- :hammer_and_wrench: [UIDD X](https://x.com/UIDD)
 - :book: [Atomicdex Wallet Documentation](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 - :link: [Komodo Wallet Website](https://komodoplatform.com/en/wallet/)
 - :speech_balloon: [Komodo Wallet Discord](https://komodoplatform.com/discord)
